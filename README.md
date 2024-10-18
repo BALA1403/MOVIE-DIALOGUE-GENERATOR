@@ -6,7 +6,11 @@
 <h1 align="center">Movie Dialogue Generator App</h1> <div align="center"> <h3> <a href="https://BALA1403.github.io/MOVIE-DIALOGUE-GENERATOR/" color="white"> Live </a> </h3> </div> <br> <br> <br>
 
 About The Project
-<p>This project is perfect for movie enthusiasts who enjoy interacting with iconic dialogues from both Hollywood and Kollywood. The app generates random movie dialogues, allowing you to relive memorable moments from your favorite films. The challenge is to build out this movie dialogue generator app and get it looking as close to the design as possible. You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go. <br><br>Users should be able to: <br>1. View the optimal layout depending on their device's screen size. 2. See hover states for all interactive elements on the page. <br> 3. Generate a new movie dialogue by clicking the dice icon. <br> 
+<p>This project is perfect for movie enthusiasts who enjoy interacting with iconic dialogues from both Hollywood and Kollywood. The app generates random movie dialogues, allowing you to relive memorable moments from your favorite films. The challenge is to build out this movie dialogue generator app and get it looking as close to the design as possible. You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go. <br><br>Users should be able to: 
+  <br>1. View the optimal layout depending on their device's screen size. 
+  2. See hover states for all interactive elements on the page.
+  <br> 3. Generate a new movie dialogue by clicking the dice icon. 
+  <br> 
 
 Built with
 Semantic HTML5 markup
