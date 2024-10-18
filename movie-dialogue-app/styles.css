@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+:root {
+  --dark_navy: #000435;
+  --light_pink: #EDE8F5;
+  --light_blue: #7091E6;
+  --blue: #3D52A0;
+  --white: white;
+  --body-font: "Manrope", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Take full height of the viewport */
+  background-color: var(--blue);
+  font-family: var(--body-font);
+}
+
+.wrapper {
+  text-align: center; /* Center text inside wrapper */
+}
+
+.heading {
+  letter-spacing: 5px;
+  text-align: center;
+  color: #EDE8F5;
+  font-size: 2.5rem;
+  margin: 0; /* Remove margin to bring the heading closer */
+  padding-top: 5rem; /* Adjust if you want space above the heading */
+  padding-bottom: 1rem;
+}
+.jello:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #3D52A0;
+  animation: jello-vertical 0.9s both;
+}
+
+@keyframes jello-vertical {
+  0%, 100% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  40% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  50% {
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  65% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+}
+
+.main-container {
+  position: relative;
+  max-width: 40rem; /* Increase maximum width for a larger container */
+  width: 100%;
+  min-width: 10rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.28rem;
+  margin: 0 auto; /* Center the container */
+  margin-top: 0; /* Ensure no space above the container */
+  margin-bottom: 8rem; /* Space below the container */
+  background-color: var(--light_blue);
+  border-radius: 10px;
+  padding: 3.2rem 1.5rem; /* Maintain padding for overall spacing */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.advice-number {
+  text-align: center;
+  color: var(--light_pink);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.quotes {
+  text-align: center;
+  font-size: 1.75rem;
+  color: var(--dark_navy);
+  font-weight: 800;
+  transition: color 0.3s ease-in-out;
+  padding: 0 1rem;
+}
+
+.quote-movie {
+  text-align: right;
+  font-size: 1.2rem; /* Adjust font size for the movie */
+  color: var(--dark_navy); /* Change color if desired */
+  margin-top: 1rem; /* Add space between quote and movie */
+  font-weight: 600; /* Make the movie’s name a bit bolder */
+  padding: 0 1rem; /* Add padding for consistent spacing */
+}
+
+.line {
+  width: 90%;
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.6rem;
+  align-items: center;
+  margin: 0 auto; /* Center line */
+}
+
+.line::before,
+.line::after {
+  content: " ";
+  background-color: var(--white);
+  opacity: 0.2;
+  width: 70%;
+  height: 1px;
+}
+
+.line-image {
+  background-image: url("images/pattern-divider-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 10rem;
+  height: 2rem;
+}
+
+.dice-img {
+  position: absolute;
+  cursor: pointer;
+  background-color: var(--light_pink);
+  background-image: url("images/icon-dice.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  transform: translateY(30%) translateX(-50%);
+  left: 50%;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  transition: all ease-in-out 0.3s;
+}
+
+@media (hover: hover) {
+  .dice-img:hover {
+    box-shadow: -1px 1px 88px 12px #000435;
+    -webkit-box-shadow: -1px 1px 88px 12px #000435;
+    -moz-box-shadow: -1px 1px 88px 12px #000435;
+    transition: all ease-in-out 0.3s;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .main-container {
+    margin-top: 0; /* Keep the layout consistent on larger screens */
+  }
+}
