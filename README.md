@@ -1,8 +1,7 @@
 
 # MOVIE DIALOGUE GENERATOR
 
-<img src="https://github.com/BALA1403/movie-dialogue-app/raw/main/images/project-preview.png" alt="Project Preview"></img>
-
+<img src="https://raw.githubusercontent.com/BALA1403/MOVIE-DIALOGUE-GENERATOR/main/movie-dialogue-app/images/project-preview.png" alt="Project Preview"></img>
 
 <h1 align="center">Movie Dialogue Generator App</h1> <div align="center"> <h3> <a href="https://BALA1403.github.io/movie-dialogue-app/" color="white"> Live </a> </h3> </div> <br> <br> <br>
 
